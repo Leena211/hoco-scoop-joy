@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Smile } from "lucide-react";
 
@@ -53,10 +52,10 @@ const HeroSection = () => {
             </div>
             <div className="absolute top-1/4 left-1/4 h-48 w-48 md:h-56 md:w-56 bg-hoco-peach rounded-full animate-wobble shadow-lg flex items-center justify-center">
               <Smile 
-                className="text-hoco-lavender" 
-                size={80} 
-                strokeWidth={1.5} 
-                opacity={0.7}
+                className="text-hoco-berry" 
+                size={100} 
+                strokeWidth={2} 
+                opacity={0.9}
               />
             </div>
             <div className="absolute top-1/3 right-1/4 h-36 w-36 md:h-44 md:w-44 bg-hoco-mint rounded-full animate-wobble shadow-lg" style={{ animationDelay: '0.5s' }}></div>
