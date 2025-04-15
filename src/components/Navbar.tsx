@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, ShoppingCart } from "lucide-react";
+import { Menu, X, ShoppingCart, Smile } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,6 +12,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-4">
           <a href="/" className="flex items-center">
             <span className="text-3xl font-bold font-playfair text-hoco-chocolate">Hoco</span>
+            <Smile 
+              className="ml-2 text-hoco-berry" 
+              size={24} 
+              strokeWidth={2.5} 
+            />
           </a>
 
           {/* Desktop Navigation */}
